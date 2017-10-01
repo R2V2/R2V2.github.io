@@ -1,19 +1,22 @@
-.center {
+div.center {
     margin: auto;
     width: 60%;
     border: 3px;
     padding: 10px;
 }
-.centertext {
+
+p.centertext {
     text-align: center;
     border: 3px;
 }
+
 body
 {
   font-family: serif; "Garamond";
   font-size: 12pt;
 
 }
+
 div
 {
 
