@@ -1,11 +1,11 @@
-div.center {
+.center {
     margin: auto;
     width: 60%;
     border: 3px;
     padding: 10px;
 }
 
-p.centertext {
+.centertext {
     text-align: center;
     border: 3px;
 }
