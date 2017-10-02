@@ -57,7 +57,9 @@ div
 
 }
 
-
+#container {
+	margin: auto;
+}
 
 #primary_nav_wrap
 {
