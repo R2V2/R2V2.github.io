@@ -10,7 +10,25 @@
     border: 3px;
 }
 
-.button {
+button {
+  background-color: #778899;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: serif; "Garamond";
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.mbutton {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .mbutton {
     background-color: #778899;
     border: none;
     color: white;
@@ -22,36 +40,7 @@
     font-family: serif; "Garamond";
     margin: 4px 2px;
     cursor: pointer;
-}
-
-a.mainNav:link    {
-  /* Applies to unvisited links of class mainNav */
-  text-decoration:  none;
-  font-weight:      bold;
-  background-color: #ddd;
-  color:            blue;
-  }
-a.mainNav:visited {
-  /* Applies to visited links of class mainNav */
-  text-decoration:  none;
-  font-weight:      bold;
-  background-color: #ddd;
-  color:            #f0f;
-  }
-a.mainNav:hover   {
-  /* Applies to links under the pointer of class mainNav */
-  text-decoration:  underline;
-  font-weight:      bold;
-  background-color: blue;
-  color:            #fff;
-  }
-a.mainNav:active  {
-  /* Applies to activated links of class mainNav */
-  text-decoration:  underline;
-  font-weight:      bold;
-  background-color: black;
-  color: white;
-  }
+}}
 
 body
 {
