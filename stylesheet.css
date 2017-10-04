@@ -1,6 +1,6 @@
 .center {
     margin: auto;
-    width: 80%;
+    width: 50%;
     border: 3px;
     padding: 10px;
 }
@@ -8,6 +8,10 @@
 .centertext {
     text-align: center;
     border: 3px;
+}
+
+p {
+    text-indent: 50px;
 }
 
 button {
@@ -84,13 +88,13 @@ div
 	font-size:12px;
 	line-height:32px;
 	padding:0 15px;
-	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+	font-family:serif; "Garamond";
 }
 
 #primary_nav_wrap ul li
 {
 	position:relative;
-	float:left;
+	float:none;
 	margin:0;
 	padding:0
 }
