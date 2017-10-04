@@ -10,7 +10,7 @@
     border: 3px;
 }
 
-p {
+p.indent {
     text-indent: 50px;
 }
 
@@ -94,7 +94,7 @@ div
 #primary_nav_wrap ul li
 {
 	position:relative;
-	float:none;
+	float:left;
 	margin:0;
 	padding:0
 }
