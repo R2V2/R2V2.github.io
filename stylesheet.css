@@ -4,6 +4,13 @@
     border: 3px;
     padding: 10px;
 }
+.mcenter {
+    margin: auto;
+    width: 50%;
+    border: 3px;
+    padding: 5px;
+}
+
 
 .centertext {
     text-align: center;
@@ -36,7 +43,7 @@ button {
       margin: auto;
       width: 50%;
       border: 3px;
-      padding: 5px;
+      padding: 10px;
   }
   .mbutton {
     background-color: #778899;
