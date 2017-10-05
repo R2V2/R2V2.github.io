@@ -11,6 +11,10 @@
     padding: 5px;
 }
 
+img.mobile {
+  width:30%;
+  float:left;
+}
 
 .centertext {
     text-align: center;
@@ -45,6 +49,12 @@ button {
       border: 3px;
       padding: 10px;
   }
+
+  img.mobile {
+    width:10%;
+    float:left;
+  }
+
   .mbutton {
     background-color: #778899;
     border: none;
@@ -58,9 +68,11 @@ button {
     margin: 4px 2px;
     cursor: pointer;
 }
+
 li {
   display: none;
 }
+
 #primary_nav_wrap ul li:hover > ul
 {
 display:none;
@@ -161,7 +173,3 @@ div
 {
 	display: block;
 }
-
-
-
-@media only screen and (min-width: 768px) {
