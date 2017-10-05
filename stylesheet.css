@@ -6,13 +6,13 @@
 }
 .mcenter {
     margin: auto;
-    width: 85%;
+    width: 90%;
     border: 3px;
     padding: 5px;
 }
 
 img.mobile {
-  width:30%;
+  width:40%;
   float:left;
 }
 
