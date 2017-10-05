@@ -32,6 +32,12 @@ button {
 }
 
 @media only screen and (min-width: 768px) {
+  .mcenter {
+      margin: auto;
+      width: 70%;
+      border: 3px;
+      padding: 10px;
+  }
   .mbutton {
     background-color: #778899;
     border: none;
@@ -44,6 +50,13 @@ button {
     font-family: serif; "Garamond";
     margin: 4px 2px;
     cursor: pointer;
+}
+li {
+  display: none;
+}
+#primary_nav_wrap ul li:hover > ul
+{
+display:none;
 }}
 
 body
@@ -145,10 +158,3 @@ div
 
 
 @media only screen and (min-width: 768px) {
-  li {
-    display: none;
-  }
-#primary_nav_wrap ul li:hover > ul
-{
-	display:none;
-}}
