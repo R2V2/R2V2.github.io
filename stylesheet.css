@@ -92,6 +92,22 @@ div
   font-size: 12pt;
 
 }
+.divon
+{
+
+  font-family: serif; "Garamond";
+  font-size: 12pt;
+
+}
+.divoff
+{
+
+  font-family: serif; "Garamond";
+  font-size: 12pt;
+  color: #000000;
+
+}
+
 
 #container {
 	margin: auto;
