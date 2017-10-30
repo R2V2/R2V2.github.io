@@ -10,7 +10,22 @@
 
   gtag('config', 'UA-107670737-1');
 </script>
-  <link rel="shortcut icon" type="image/x-icon" href="http://walled.in/favicon.ico">
+  <!-- Text cycle script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.js"></script>
+<script>
+$(document).ready(function() {
+ $('.alternate').click(function() {
+       var index=   $(this).attr("data-text-index");
+     var text = $.parseJSON($(this).attr("data-text"));
+     if(index== null)
+         index = -1;
+     index = Number(index)+1>=text.length? 0:Number(index)+1;
+     $(this).html(text[index]);
+     $(this).attr("data-text-index",index);
+  });
+});
+</script>
+<link rel="shortcut icon" type="image/x-icon" href="http://walled.in/favicon.ico">
 </head>
 <title>Again</title>
 <meta charset="UTF-8">
@@ -69,9 +84,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Garamond", serif}
     </div>
     <div>
       <div>
-        <p>My first clue should have been how quickly she got ready.
-        </p>
-
+        <span class="alternate" data-text='[" The biggest hint", " The clearest sign"]'>My first clue</span>
+        <span class="alternate" data-text='[" must have been", "had to be"]'> should have been</span>
+        <span class="alternate" data-text='[" how rapidly", "how suddenly"]'> how quickly</span>
+        <span class="alternate" data-text='[" M freshened up.", "she prepared"]'> she got ready.</span>
       </div>
     </div>
   </div>

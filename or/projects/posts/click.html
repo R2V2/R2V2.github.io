@@ -18,13 +18,7 @@ var nextWord = (function() {
   }
 }());
 </script>
-<script>
-$(function(){
-    $('.divon').on('click', function(){
-        $(this).toggleClass('divoff')
-    });
-});
-</script>
+
   <link rel="shortcut icon" type="image/x-icon" href="http://walled.in/favicon.ico">
 </head>
 <title>Click</title>
@@ -83,9 +77,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Garamond", serif}
       <h5>Python, <span>October xth, 2017</span></h5>
     </div>
     <div>
-      <div class="divon" class="centertext">
+      <div class="centertext">
         <p id="foo">&nbsp;</p>
-        <button onclick="document.getElementById('foo').innerHTML = nextWord();">Click</button>
+        <button onclick="document.getElementById('foo').innerHTML = nextWord(); this.style.background='gray'">Click</button>
       </div>
     </div>
   </div>
