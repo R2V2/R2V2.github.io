@@ -11,11 +11,11 @@
     padding: 5px;
 }
 
-a {
+a.alt {
   text-decoration: none;
   color: black;
 }
-a:visited {
+a.alt:visited {
   color: black;
 }
 
