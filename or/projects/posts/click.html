@@ -26,6 +26,12 @@ function cyclebackground()
     $("body").css("background-color", selectedColor);
 }
 </script>
+<script>
+  function cycletextandbg()
+  {document.getElementById('foo').innerHTML = nextWord();
+  cyclebackground()
+}
+</script>
   <link rel="shortcut icon" type="image/x-icon" href="http://walled.in/favicon.ico">
 </head>
 <title>Click</title>
@@ -85,7 +91,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Garamond", serif}
     <div>
       <div class="centertext">
         <p id="foo">&nbsp;</p>
-        <button onclick="document.getElementById('foo').innerHTML = nextWord(); cyclebackground()">Click</button>
+        <button onclick="cycletextandbg()">Click</button>
       </div>
     </div>
   </div>

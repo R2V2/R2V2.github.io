@@ -11,6 +11,10 @@
     padding: 5px;
 }
 
+.blank {
+  text-decoration: none;
+}
+
 img.mobile {
   width:40%;
   float:left;
