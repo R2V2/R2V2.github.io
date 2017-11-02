@@ -11,8 +11,11 @@
     padding: 5px;
 }
 
-.blank {
+a {
   text-decoration: none;
+}
+a:visited {
+  color: #778899;
 }
 
 img.mobile {
