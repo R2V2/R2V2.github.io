@@ -13,9 +13,10 @@
 
 a {
   text-decoration: none;
+  color: black;
 }
 a:visited {
-  color: #778899;
+  color: black;
 }
 
 img.mobile {
