@@ -9,7 +9,8 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-107670737-1');
-</script><script type="text/javascript">
+</script>
+<script type="text/javascript">
 var nextWord = (function() {
   var wordArray = ['Why\'d you do that? Turn it back on.','Don\'t listen to her. Leave it off to save energy.','It\'s just pixels, it doesn\'t matter what color it is.','"Just pixels." Ha, there\'re more things in heaven and earth.'];
   var count = -1;
@@ -19,17 +20,25 @@ var nextWord = (function() {
 }());
 </script>
 <script>
-function cyclebackground()
-{
-    var colors = ["black", "white"],
-    selectedColor = colors[Math.floor(Math.random()*colors.length)]
-    $("body").css("background-color", selectedColor);
-}
+var colors = ['black', 'white'];
+
+$(document).ready(function () {
+    $colorDiv = $('#coloredDiv');
+    ln = colors.length;
+    $('.clickMe').on("click", function () {
+        var i = $colorDiv.data("index");
+        ++i;
+        if (i >= ln) i = 0;
+        $colorDiv.css({
+            'background-color': colors[i]
+        });
+        $colorDiv.data("index", i);
+    });
+});
 </script>
 <script>
-  function cycletextandbg()
+  function cycletext()
   {document.getElementById('foo').innerHTML = nextWord();
-  cyclebackground()
 }
 </script>
   <link rel="shortcut icon" type="image/x-icon" href="http://walled.in/favicon.ico">
@@ -88,11 +97,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Garamond", serif}
       <h3><b>Click</b></h3>
       <h5>Clickables, <span>October xth, 2017</span></h5>
     </div>
-    <div>
-      <div class="centertext">
-        <p id="foo">&nbsp;</p>
-        <button onclick="cycletextandbg()">Click</button>
-      </div>
+    <button onclick="cycletext()" href="#" class="clickMe">Click</button>
+    <div id="coloredDiv" data-index="-1">
+    <p style="color:grey" id="foo">&nbsp;</p>
     </div>
   </div>
   <hr>
