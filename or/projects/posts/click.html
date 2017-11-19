@@ -41,14 +41,13 @@ $(document).ready(function () {
   {document.getElementById('foo').innerHTML = nextWord();
 }
 </script>
-  <link rel="shortcut icon" type="image/x-icon" href="http://walled.in/favicon.ico">
-</head>
-<title>Click</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="http://walled.in/stylesheet.css">
+  <link rel="shortcut icon" type="image/x-icon" href="http://walled.in/favicon.ico">
+  <link rel="stylesheet" type="text/css" href="http://walled.in/stylesheet.css">
+<title>Click</title>
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Garamond", serif}
+h1,h2,h3,h4,h5 {font-family: "Garamond", serif}
 </style>
 <body>
 <!-- primary container -->
@@ -66,7 +65,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Garamond", serif}
           <ul>
             <li><a href="http://walled.in/index.html">Home</a></li>
             <li><a href="http://walled.in/or/about/me.html">About</a></li>
-            <li><a href="http://walled.in/or/fiction/main.html">fiction</a></li>
+            <li><a href="http://walled.in/or/lexical-sketches/main.html">Lexical sketches</a></li>
             <li><a href="http://walled.in/or/ideas/main.html">Ideas</a></li>
             <li><a href="http://walled.in/or/advice/main.html">Advice</a></li>
           </ul>
@@ -81,7 +80,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Garamond", serif}
       <p><span><a class="mbutton" href="http://walled.in/index.html">Home</a></span>
         <span><a class="mbutton" href="http://walled.in/or/about/me.html">About</a></span>
         <span><a class="mbutton" href="http://walled.in/or/projects/main.html" style="background-color:#b7c0c9">Projects</a></span>
-        <span><a class="mbutton" href="http://walled.in/or/fiction/main.html">Fiction</a></span>
+        <span><a class="mbutton" href="http://walled.in/or/lexical-sketches/main.html">Lexical sketches</a></span>
         <span><a class="mbutton" href="http://walled.in/or/ideas/main.html">Ideas</a></span>
         <span><a class="mbutton" href="http://walled.in/or/advice/main.html">Advice</a></span>
     </p>
@@ -90,21 +89,15 @@ body,h1,h2,h3,h4,h5 {font-family: "Garamond", serif}
 </header>
 <hr>
 <!-- Blog entries -->
-<div>
-  <!-- Blog entry -->
-  <div>
-    <div>
-      <h3><b>Click</b></h3>
-      <h5>Clickables, <span>October xth, 2017</span></h5>
-    </div>
-    <button onclick="cycletext()" href="#" class="clickMe">Click</button>
+
+  <!-- Blog entry --><div>
+<button onclick="cycletext()" href="#" class="clickMe">Click</button>
     <div id="coloredDiv" data-index="-1">
     <p style="color:grey" id="foo">&nbsp;</p>
     </div>
-  </div>
-  <hr>
+    </div>
 <!-- END BLOG ENTRIES -->
-</div>
+
 <!-- Introduction menu -->
 <div class="centertext">
   <!-- About Card -->
@@ -118,6 +111,4 @@ body,h1,h2,h3,h4,h5 {font-family: "Garamond", serif}
 <!-- END Introduction Menu -->
 </div>
 </div>
-
 </body>
-</html>
