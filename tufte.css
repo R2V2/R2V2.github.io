@@ -484,7 +484,7 @@ tr:nth-child(even) {
     }
 
 #myInput {
-        background-image: 'victorgom.es/resources/searchicon.png';
+        background-image: url('victorgom.es/resources/searchicon.png');
         /* Add a search icon to input */
         background-position: 10px 12px;
         /* Position the search icon */
