@@ -490,7 +490,7 @@ tr:nth-child(even) {
         /* Position the search icon */
         background-repeat: no-repeat;
         /* Do not repeat the icon image */
-        width: 80%;
+        width: 100%;
         /* Full-width */
         font-size: 16px;
         /* Increase font-size */
@@ -505,12 +505,16 @@ tr:nth-child(even) {
 #myTable {
         border-collapse: collapse;
         /* Collapse borders */
-        width: 90%;
+        width: 100%;
         /* Full-width */
         border: 1px solid #ddd;
         /* Add a grey border */
         font-size: 18px;
         /* Increase font-size */
+        padding: 12px 20px 12px 40px;
+        /* Add some padding */
+        margin-bottom: 12px;
+        /* Add some space below the input */
     }
     
 #myTable th, #myTable td {
