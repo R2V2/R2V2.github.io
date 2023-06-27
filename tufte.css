@@ -509,7 +509,7 @@ tr:nth-child(even) {
         /* Full-width */
         border: 1px solid #ddd;
         /* Add a grey border */
-        font-size: 18px;
+        font-size: 16px;
         /* Increase font-size */
         padding: 12px 20px 12px 40px;
         /* Add some padding */
