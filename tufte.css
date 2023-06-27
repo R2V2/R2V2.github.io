@@ -484,8 +484,6 @@ tr:nth-child(even) {
     }
 
 #myInput {
-        border-collapse: collapse;
-        /* Collapse borders */
         background-image: url('/css/searchicon.png');
         /* Add a search icon to input */
         background-position: 10px 12px;
@@ -507,12 +505,6 @@ tr:nth-child(even) {
 #myTable {
         border-collapse: collapse;
         /* Collapse borders */
-        background-image: url('/css/searchicon.png');
-        /* Add a search icon to input */
-        background-position: 10px 12px;
-        /* Position the search icon */
-        background-repeat: no-repeat;
-        /* Do not repeat the icon image */
         width: 100%;
         /* Full-width */
         border: 1px solid #ddd;
@@ -521,8 +513,6 @@ tr:nth-child(even) {
         /* Increase font-size */
         padding: 12px 20px 12px 40px;
         /* Add some padding */
-        margin-bottom: 12px;
-        /* Add some space below the input */
     }
     
 #myTable th, #myTable td {
