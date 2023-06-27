@@ -503,7 +503,7 @@ tr:nth-child(even) {
     }
     
 #myTable {
-        border-collapse: collapse;
+        border-collapse: separate;
         /* Collapse borders */
         width: 100%;
         /* Full-width */
