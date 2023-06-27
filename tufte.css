@@ -498,6 +498,7 @@ tr:nth-child(even) {
         /* Add some padding */
         border: 1px solid #ddd;
         /* Add a grey border */
+        border-spacing: 0;
         margin-bottom: 12px;
         /* Add some space below the input */
     }
