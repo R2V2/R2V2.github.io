@@ -484,7 +484,7 @@ tr:nth-child(even) {
     }
 
 #myInput {
-    background-image: url('victorgom.es/resources/searchicon.png');
+    background-image: 'victorgom.es/resources/searchicon.png';
     background-position: 10px 10px;
     background-repeat: no-repeat;
     width: 100%;
